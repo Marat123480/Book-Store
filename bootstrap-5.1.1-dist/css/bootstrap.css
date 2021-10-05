@@ -79,6 +79,12 @@ header{
   background-image: unset !important;
   height: 10vw;
 }
+.d-flex.flex-row-reverse.bd-highlight{
+  padding-right: 6.3vw;
+}
+.d-flex.flex-row-reverse.bd-highlight button{
+  font-size: 1.5vw;
+}
 .navigation{
   height: 100% !important;
   align-items: center !important;
@@ -11297,6 +11303,9 @@ textarea.form-control-lg {
   .desktop-nav{
     display: none;
   }
+  .d-flex.flex-row-reverse.bd-highlight button{
+    font-size: 3.5vw;
+  }
   th{
     font-size: 2.5vw;
   }
@@ -11350,6 +11359,9 @@ textarea.form-control-lg {
 @media (min-width: 575px) and (max-width: 767px) {
   .desktop-nav{
     display: none;
+  }
+  .d-flex.flex-row-reverse.bd-highlight button{
+    font-size: 2.5vw;
   }
   .navbar{
     display: flex !important;
@@ -11405,6 +11417,12 @@ textarea.form-control-lg {
 @media (min-width: 768px) and (max-width: 991px) {
   .desktop-nav{
     display: none;
+  }
+  .d-flex.flex-row-reverse.bd-highlight{
+    padding-bottom: 2.5vw;
+  }
+  .d-flex.flex-row-reverse.bd-highlight button{
+    font-size: 2vw;
   }
   header{
     height: 0 !important;
