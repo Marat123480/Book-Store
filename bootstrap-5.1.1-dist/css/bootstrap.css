@@ -83,7 +83,7 @@ header{
   padding-right: 6.3vw;
 }
 .d-flex.flex-row-reverse.bd-highlight button{
-  font-size: 1.5vw;
+  font-size: 1.1vw;
 }
 .navigation{
   height: 100% !important;
@@ -11361,7 +11361,7 @@ textarea.form-control-lg {
     display: none;
   }
   .d-flex.flex-row-reverse.bd-highlight button{
-    font-size: 2.5vw;
+    font-size: 2vw;
   }
   .navbar{
     display: flex !important;
@@ -11422,7 +11422,7 @@ textarea.form-control-lg {
     padding-bottom: 2.5vw;
   }
   .d-flex.flex-row-reverse.bd-highlight button{
-    font-size: 2vw;
+    font-size: 1.7vw;
   }
   header{
     height: 0 !important;
