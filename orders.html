@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="bootstrap-5.1.1-dist/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="admin_style.css">
+<script src="bootstrap-5.1.1-dist/js/bootstrap.bundle.js"></script>
+    <title>Document</title>
+</head>
+<body onload="checkadmin()">
+    <div id="login" class="container-fluid d-flex justify-content-evenly" style="width: 100%;">
+        <header>
+            <div class="navigation">
+                <nav class="navbar navbar-light bg-light fixed-top">
+                    <div id="head" class="container-fluid">
+                        <div class="logo">
+                            <h1>Bookie</h1>
+                            <p>Just another WordPress site</p>
+                        </div>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                        <div class="offcanvas-header">
+                          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                              <a class="nav-link" aria-current="page" href="index.html">HOME</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link " href="admin.html">GENRES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="orders.html">ORDERS</a>
+                              </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="books.html">BOOKS</a>
+                              </li>
+                            <li class="nav-item">
+                              <a class="nav-link" onclick="logout()" href="#">LOG OUT</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </nav>
+                  <div class="desktop-nav">
+                    <div class="logo">
+                        <h1>Bookie</h1>
+                        <p>Just another WordPress site</p>
+                    </div>
+                    <nav>
+                        <ul>
+                            <li><a href="index.html">HOME</a></li>
+                            <li> <a href="admin.html">GENRES</a></li>
+                            <li> <a id="active" href="orders.html">ORDERS</a></li>
+                            <li> <a href="books.html">BOOKS</a></li>
+                            <li><a href="#" onclick="logout()">LOG OUT</a></li>
+                        </ul>
+                    </nav>
+                  </div>
+            </div>
+        </header>
+    </div>
+    <h2 style="text-align: center;">Orders</h2>
+    <div class="container" style=" width: 70%">
+        <table class="table">
+            <thead class="table-dark">
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">User</th>
+            <th scope="col">Price</th>
+            <th scope="col">Open</th>
+            <th scope="col">Edit</th>
+            <th scope="col">Delete</th>
+          </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>danil-top@mail.ru</td>
+            <td>250$</td>
+            <td><button type="button" class="btn btn-success">Open</button></td>
+            <td> <button type="button" class="btn btn-primary">Edit</button></td>
+            <td> <button type="button" class="btn btn-danger">Delete</button></td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>azamat-ahmet@mail.ru</td>
+            <td>150$</td>
+            <td><button type="button" class="btn btn-success">Open</button></td>
+            <td> <button type="button" class="btn btn-primary">Edit</button></td>
+            <td> <button type="button" class="btn btn-danger">Delete</button></td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>topka87778@mail.ru</td>
+            <td>200$</td>
+            <td><button type="button" class="btn btn-success">Open</button></td>
+            <td> <button type="button" class="btn btn-primary">Edit</button></td>
+            <td> <button type="button" class="btn btn-danger">Delete</button></td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>igorgod@mail.ru</td>
+            <td>120$</td>
+            <td><button type="button" class="btn btn-success">Open</button></td>
+            <td> <button type="button" class="btn btn-primary">Edit</button></td>
+            <td> <button type="button" class="btn btn-danger">Delete</button></td>
+          </tr>
+          </tbody>
+          
+          </table>
+    </div>
+    <footer  id="login-foot">
+        <ul>
+            <li>Home</li>
+            <li>Blog</li>
+            <li>About Us</li>
+            <li>TOS</li>
+            <li>Contact Us</li>
+        </ul>
+        <p>Made by © Amantay Marat from Group IT2CCO-2112</p>
+    </footer>
+    <script src="script.js"></script>
+    <script src="bootstrap-5.1.1-dist/js/bootstrap.js"></script>
+</body>
+</html>
